@@ -113,8 +113,8 @@ themeplify.files = {
 	},
 	srcAssets: "./src/assets",
 	scss: [
-		"!./src/styles/_*.{scss,sass}",
-		"./src/styles/*.{scss,sass}",
+		"!./src/styles/**/_*.{scss,sass}",
+		"./src/styles/**/*.{scss,sass}",
 	],
 	scssLiquid: "./src/styles/*.css.liquid",
 	compileOutput: "./dist/assets",
